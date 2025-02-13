@@ -1,0 +1,76 @@
+body {
+    background-color: beige;
+    font-family: "Josefin Sans", serif;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 0px 50px;
+    min-height: 95vh;
+}
+
+.main {
+    flex: 1;
+    margin-top: -10px;
+}
+
+footer {
+    background-color: rgb(98, 94, 136);
+    color: rgb(255, 255, 255);
+    clear: both;
+    text-align: center;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 3rem;
+}
+span {
+    color: midnightblue;
+}
+
+.logo {
+    height: 100px;
+}
+.cima {
+    float: left;
+    width: 45%;
+}
+
+.baixo {
+    float: right;
+    width: 45%;
+}
+
+.after {
+    clear: both;
+    padding: 50px;
+    text-align: center;
+}
+
+.imgs {
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+
+
+
+@media (max-width: 680px) {
+    
+    .logo {
+        height: 60px;
+    }
+    .cards {
+        display: inline;
+        text-align: justify;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .cards img {
+        margin-bottom: 10px;
+        display: block;
+    }
+
+}
