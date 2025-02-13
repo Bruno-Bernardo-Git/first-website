@@ -23,6 +23,7 @@ footer {
 h1 {
     font-size: 3rem;
 }
+
 span {
     color: midnightblue;
 }
@@ -30,6 +31,7 @@ span {
 .logo {
     height: 100px;
 }
+
 .cima {
     float: left;
     width: 45%;
@@ -46,6 +48,11 @@ span {
     text-align: center;
 }
 
+.list {
+    display: inline-block;
+    text-align: left;
+}
+
 .imgs {
     height: 200px;
     float: left;
@@ -59,18 +66,20 @@ span {
     .logo {
         height: 60px;
     }
+
     .cards {
         display: inline;
         text-align: justify;
         width: 100%;
         margin-bottom: 10px;
     }
+
     h1 {
         font-size: 2rem;
     }
+
     .cards img {
         margin-bottom: 10px;
         display: block;
     }
-
 }
