@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <title>Main page</title>
         <style>
+            h1 {color: rgb(21, 65, 160);}
+            h2 {color: rgb(0, 0, 0);}
+            
             footer {
             background-color: rgb(98, 94, 136);
             color: rgb(255, 255, 255);
@@ -11,34 +14,62 @@
             text-align: center;
             font-weight: 900; 
             }
+
             body {
+            display: flex;
+            flex-direction: column;
             background-color: beige;
             margin: 50px 50px 0px 50px;
             }
+
+            .main1 {
+                flex: 1;
+            }
+            .main2 {
+                flex: 1;
+            }
+            .main3 {
+                flex: 1;
+            }
+
         </style>
     </head>
 
-    <body>   
+    <body>  
         <h1>My portfolio so far 🎉:</h1>
-        <h2>My websites with links and previews</h2>
-        <h3><a href="../public/birthday-invite.html">Invitation to my birthday!</a></h3>
-        <a href="../public/birthday-invite.html"><img width="600" src="../assets/images/birthday-invite.png"></a>
+        <div class="main1">
+            <h2>My websites with links and previews</h2>
+            <h3><a href="../public/birthday-invite.html">Invitation to my birthday!</a></h3>
+            <a href="../public/birthday-invite.html"><img width="600" src="../assets/images/birthday-invite.png"></a>
+        </div>
 
         <hr /> 
-            
-        <h3><a href="../public/movie-ranking.html">Top 3 films</a></h3>
-        <a href="../public/movie-ranking.html"><img width="600" src="../assets/images/movie-ranking.png"></a>
-        
+
+        <div class="main2">
+            <h3><a href="../public/movie-ranking.html">Top 3 films</a></h3>
+            <a href="../public/movie-ranking.html"><img width="600" src="../assets/images/movie-ranking.png"></a>
+        </div>
+
         <hr />
+
+        <div class="main3">
+
+        <h3><a href="../public/flags.html">Making Flags with CSS!</a></h3>
+        <a href="../public/flags.html"><img width="600px" src="../assets/images/flags.png"></a>
         <p>
-            <b><a href="../public/contact.html">Contacts</a></b>      
-        </p>
-        <p>
-            <b><a href="../public/about.html">About me</a></b>
-        </p>
-        <a href="../index.html">
-            <img width="50" src="../assets/images/retornar.png" alt="Return button" />
-        </a>
+
+        </div>
+        <hr />
+
+        <div>
+            <b><a href="../public/contact.html">Contacts</a></b>
+            <p>
+                <b><a href="../public/about.html">About me</a></b>
+            </p>
+            <a href="../index.html">
+                <img width="50" src="../assets/images/retornar.png" alt="Return button" />
+            </a>
+        </div>
     </body>
     <footer>  
             <a href="https://www.linkedin.com/in/-bruno-bernardo-/">Linkedin</a>
